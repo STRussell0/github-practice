@@ -1,0 +1,11 @@
+.column {
+    background-color: rgba(60, 60, 170, 0.459);
+    float: left;
+    width: 33%;
+    height: 300px;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+}
